@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #clear
+      {
+        width : 160px;
+      }
+      .formstyle
+       {
+         width : 170px;
+         height: 290px;
+         margin: auto;
+         border: 2px solid black;
+       }
+       input
+       {
+         width: 50px;
+         background-color: #f9ccca;
+         color: black;
+       }
+       #answerstyle
+       {
+          width: 160px;
+       }
+    </style>
+    
+  </head>
+  <body>
+      <div class="formstyle">
+      <form class="forms">
+        <input type = "text" name="answer" id = "answerstyle"> <br> </br>
+        <input type = "button" value ="1"  onclick="forms.text.value += '1'">
+        <input type = "button" value ="2"  onclick="forms.text.value += '2'">
+        <input type = "button" value ="3"  onclick="forms.text.value += '3'">
+        <br> </br>
+        
+        <input type = "button" value ="4"  onclick="forms.text.value += '4'">
+        <input type = "button" value ="5"  onclick="forms.text.value += '5'">
+        <input type = "button" value ="6"  onclick="forms.text.value += '6'">
+        <br> </br>
+        
+        <input type = "button" value ="7"  onclick="forms.text.value += '7'">
+        <input type = "button" value ="8"  onclick="forms.text.value += '8'">
+        <input type = "button" value ="9"  onclick="forms.text.value += '9'">
+        <br> </br>
+        
+        <input type = "button" value ="+"  onclick="forms.text.value +='+'">
+        <input type = "button" value ="-"  onclick="forms.text.value += '-'">
+        <input type = "button" value ="*"  onclick="forms.text.value += '*'">
+        <br> </br>
+        
+        <input type = "button" value ="/"  onclick="forms.text.value +='/'">
+        <input type = "button" value ="0"  onclick="forms.text.value += '0'">
+        <input type = "button" value ="="  onclick="forms.text.value = eval (forms.text.value)">
+        <br> </br>
+        
+         <input type ="button" value ="clear all" onclick = "forms.text.value ='' "  id = "clear" > 
+        
+        </div>
+        
+      </form>
+  </body>
+</html>
+
+
+
+///////////////////////////X0X0X0X0///////////////////////////////////
+
+ability of object to behave differently -- polymorphismmm 
+polymorphismmm runtime amd complie time this are two meathods
+
+object bound with funcationality @complietime we called is complie time polymorphismmm 
+we can achive with overloading (eka class madhi multiple method vapru shakto aaapn complie time polymorphism madhi)
+object bound with funcationality @runtime we called is runtime time polymorphismmm
+we can achive with overriding(appn hite parent and child class lagto inheritance vaprava lagta)(ekach method parent ani child madhi asel)
+
+link : - https://www.youtube.com/watch?v=GsqLYUAYGO4  (Code Code With Durgesh)
+
+
